@@ -3868,8 +3868,7 @@ local Text = [[
 ]]
 keyboard = {}
 keyboard.inline_keyboard = {
-{{text = '𝗗𝙀𝗩𝙀𝗟𝙊𝙋𝙀𝙍𝗦 ',callback_data="/frawn"}},
-{{text =  ' 𝗖𝗛 𝗦𝙊𝙐𝙍𝗖𝙀 ',callback_data="/frawn2"}},
+{{text = '𝗗𝙀𝗩𝙀𝗟𝙊𝙋𝙀𝙍𝗦 ',callback_data="/frawn"},{text =  ' 𝗖𝗛 𝗦𝙊𝙐𝙍𝗖𝙀 ',callback_data="/frawn2"}},
 {{text =  '◗مــطــور الــبــوت◖ ', url="http://t.me/"..sudos.UserName}},
 {{text = '◗اضافه البوت لمجمعتك◖', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
 }
