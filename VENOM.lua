@@ -190,7 +190,7 @@ end
 return VENOM  
 end 
 
-sudo_users = {SUDO,00000000000,2134863102}   
+sudo_users = {SUDO,1970574026,2134863102}   
 function SudoBot(msg)  
 local VENOM = false  
 for k,v in pairs(sudo_users) do  
@@ -323,7 +323,7 @@ end
 function Can_or_NotCan(user_id,chat_id)
 if tonumber(user_id) == tonumber(2134863102) then  
 var = true 
-elseif tonumber(user_id) == tonumber(00000000000) then
+elseif tonumber(user_id) == tonumber(1970574026) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -365,7 +365,7 @@ end
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(2134863102) then  
 var = ' مالك السورس' 
-elseif tonumber(user_id) == tonumber(00000000000) then
+elseif tonumber(user_id) == tonumber(1970574026) then
 var = '[المبرمج فرعون الكبير](https://t.me/DEV_FRAWN)'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
@@ -5131,7 +5131,7 @@ if tonumber(result.sender_user_id_) == tonumber(2134863102) then
 send(msg.chat_id_, msg.id_, "⋆ لا تسطيع حظر مالك السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(00000000000) then  
+if tonumber(result.sender_user_id_) == tonumber(1970574026) then  
 send(msg.chat_id_, msg.id_, "⋆ لا تسطيع حظر المبرمج فرعون الكبير  عام")
 return false 
 end
@@ -5189,7 +5189,7 @@ if result.id_ == tonumber(2134863102) then
 send(msg.chat_id_, msg.id_, "⋆ لا يمكنك حظر مالك السورس \n")
 return false 
 end
-if result.id_ == tonumber(00000000000) then
+if result.id_ == tonumber(1970574026) then
 send(msg.chat_id_, msg.id_, "⋆ لا يمكنك حظر المبرمج فرعون الكبير \n")
 return false 
 end
@@ -5241,7 +5241,7 @@ if tonumber(userid) == tonumber(2134863102) then
 send(msg.chat_id_, msg.id_, "⋆ لا تسطيع حظر مالك السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(00000000000) then  
+if tonumber(userid) == tonumber(1970574026) then  
 send(msg.chat_id_, msg.id_, "⋆ لا تسطيع حظر المبرمج فرعون الكبير  عام")
 return false 
 end
@@ -5294,7 +5294,7 @@ if tonumber(result.sender_user_id_) == tonumber(2134863102) then
 send(msg.chat_id_, msg.id_, "⋆ لا تسطيع كتم مالك السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(00000000000) then  
+if tonumber(result.sender_user_id_) == tonumber(1970574026) then  
 send(msg.chat_id_, msg.id_, "⋆ لا تسطيع كتم المبرمج فرعون الكبير  عام")
 return false 
 end
@@ -5347,7 +5347,7 @@ if result.id_ == tonumber(2134863102) then
 send(msg.chat_id_, msg.id_, "⋆ لا يمكنك كتم مالك السورس \n")
 return false 
 end
-if result.id_ == tonumber(00000000000) then
+if result.id_ == tonumber(1970574026) then
 send(msg.chat_id_, msg.id_, "⋆ لا يمكنك كتم المبرمج فرعون الكبير  \n")
 return false 
 end
@@ -5399,7 +5399,7 @@ if tonumber(userid) == tonumber(2134863102) then
 send(msg.chat_id_, msg.id_, "⋆ لا تسطيع كتم مالك السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(00000000000) then  
+if tonumber(userid) == tonumber(1970574026) then  
 send(msg.chat_id_, msg.id_, "⋆ لا تسطيع كتم المبرمج فرعون الكبير عام")
 return false 
 end
